@@ -1,0 +1,28 @@
+# Common ignores
+.DS_Store
+*.log
+*.tmp
+*.swp
+.env
+.env.*
+
+# Node modules (do not upload)
+**/node_modules/
+
+# Hardhat build artifacts & caches
+contracts/artifacts/
+contracts/cache/
+contracts/typechain/
+contracts/deployments/
+
+# Frontend build outputs
+frontend/.next/
+frontend/.turbo/
+frontend/.vercel/
+frontend/out/
+
+# Misc
+**/.eslintcache
+**/.tsbuildinfo
+
+
